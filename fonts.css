@@ -2,3 +2,7 @@
     font-family: "LeagueSpartan-Bold";
 src: url(../athena-website/assets/fonts/league-spartan/LeagueSpartan-Bold.otf) format("truetype");
 }
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url(../athena-website/assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf) format("truetype");
+}

@@ -4,7 +4,7 @@
     font-size: 50px;
     text-align: center;
     font-weight: lighter;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Bebasneue-regular"
 }
 .websiteheader {
     color: var(--dark-green);
@@ -12,12 +12,18 @@
     font-size: 80px;
     text-align: center;
     font-weight: lighter;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "LeagueSpartan-Bold"
+}
+.contactheader {
+    color: var(--dark-green);
+    margin-top: 2000px;
+    font-size: 35px;
+    font-family: "BebasNeue-regular";
 }
 body {
 background-color: var(--eggshell);
 margin: 0%;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: "Bebasneue-regular"
 }
 ul {
     display: flex;
@@ -32,8 +38,36 @@ ul {
     position: fixed;
     top: 0%;
     width: 100%;
+    font-family: "leaguespartan-bold";
 }
 li a {
 text-decoration: none;
-color: var(--eggshell);
+color: var(--eggshell)
+}
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #283618;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 20px;
+        background-color: var(--dark-blue);
+        resize: vertical;
+    }
+    input[type=submit] {
+        background-color: var(--dark-green);
+        color: var(--dark-green);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+input[type=submit]:hover {
+    background-color: var(--dark-green);
+}
+.container {
+    border-radius: 5px;
+    background-color: var(--eggshell);
+    padding: 180px;
 }
