@@ -17,7 +17,7 @@
 .contactheader {
     color: var(--dark-green);
     margin-top: 2000px;
-    font-size: 35px;
+    font-size: 50px;
     font-family: "BebasNeue-regular";
 }
 body {
@@ -45,19 +45,20 @@ text-decoration: none;
 color: var(--eggshell)
 }
     input[type=text], select, textarea {
+        font-size: large;
         width: 100%;
         padding: 15px;
-        border: 1px solid #283618;
+        border: 3px solid #283618;
         border-radius: 4px;
         box-sizing: border-box;
         margin-top: 6px;
         margin-bottom: 20px;
-        background-color: var(--dark-blue);
+        background-color: var(--eggshell);
         resize: vertical;
     }
     input[type=submit] {
-        background-color: var(--dark-green);
-        color: var(--dark-green);
+        background-color: var(--eggshell);
+        color: var(--eggshell);
         padding: 12px 20px;
         border: none;
         border-radius: 10px;
@@ -67,7 +68,14 @@ input[type=submit]:hover {
     background-color: var(--dark-green);
 }
 .container {
+    margin-block-start: 50px;
+    margin-bottom: 60px;
     border-radius: 5px;
     background-color: var(--eggshell);
     padding: 180px;
+}
+
+.formBackground {
+font-size: 30px;
+color: var(--light-green);
 }
