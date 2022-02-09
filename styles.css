@@ -1,9 +1,18 @@
-.websiteheader {
-    color: var(--dark-green);
-    margin-top: 200px;
+.intromessage {
+    color: var(--light-green);
+    margin-top: 400px;
     font-size: 50px;
     text-align: center;
     font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.websiteheader {
+    color: var(--dark-green);
+    margin-top: 20px;
+    font-size: 80px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
 background-color: var(--eggshell);
@@ -23,9 +32,8 @@ ul {
     position: fixed;
     top: 0%;
     width: 100%;
-    border-bottom: 2.5px var(--dark-green);
 }
 li a {
 text-decoration: none;
-color: var(--dark-green);
+color: var(--eggshell);
 }
